@@ -1,0 +1,79 @@
+body {
+  background-color: #2F2F2F;
+}
+
+main {
+  color: #CFCFCF;
+}
+
+.burger {
+  background-color: #CFCFCF;
+  height: 45px;
+  width: 45px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+  nav.primary-nav {
+  background-color: #000;
+  top: 0;
+  right: 0;
+  position: fixed;
+  min-width: 200px;
+  z-index: 1002;
+  display: none;
+}
+
+nav.primary-nav a{
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+  color: #fff;
+}
+
+.menu-on {
+  background-color: #000;
+  color: #fff;
+  top: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1001;
+  padding: 10px;
+}
+
+.menu-off {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: none;
+}
+
+#toggle-menu:checked ~ nav.primary-nav{
+  display: block;
+}
+
+#toggle-menu {
+  display: none;
+}
+
+/*when primary nav is next to a checked checkbox*/
+#toggle-menu:checked ~ .menu-off {
+  display: block;
+}
+/*
+@media screen and (min-width: 500px){
+  .menu-on, .menu-off {
+    display: none;
+  }
+  nav.primary-nav {
+    display: block;
+    position: static;
+  }
+  nav.primary-nav a {
+    display: inline-block;
+  }
+}*/
