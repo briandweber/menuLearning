@@ -13,6 +13,7 @@ body {
   z-index: 1060;
   color: #f28080;
   font-size: 3em;
+  font-family: 'Fira Mono', monospace;
 }
 
 #slideMenu {

@@ -20,5 +20,13 @@ $(document).ready(function(){
       display: "block"
     }, 200, 'linear')
   })
+  $(".exit").click(function(){
+    $(".exit").css({
+      display: "none"
+    }, 200, "linear")
+  })
+  $(".exit").click(function(){
+    $("#slideMenu").slideUp(1000)
+  })
 })
 console.log("connected");
