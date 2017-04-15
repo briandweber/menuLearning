@@ -1,6 +1,9 @@
 body {
   background-color: #2F2F2F;
 }
+.welcome {
+   height: 50vh;
+ }
 
 .exit {
   height: 50px;
@@ -10,40 +13,45 @@ body {
   top: 30px;
   right: 25px;
   display: none;
-  z-index: 1060;
+  z-index: 2060;
   color: #f28080;
   font-size: 3em;
   font-family: 'Fira Mono', monospace;
 }
 
 .quote {
-    width: 80%;
-    margin: auto;
-    text-align: center;
+  height: 50vh;
 }
 
 #slideMenu {
   display: none;
   background-color: #000;
-  width: 100%;
-  height: 100%;
-  position: absolute;
+  position: fixed;
   z-index: 2000;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
 }
 
 .menuItem {
   height: 25%;
-  width: 75%;
+  width: 100%;
+}
+
+p {
+    font-size: 1.4em;
+}
+
+.menuItem p {
+
 }
 
 main {
   color: #CFCFCF;
-  height: 40vh;
   font-family: 'PT Sans', sans-serif;
   font-size: .75em;
-  position: absolute;
   text-align: center;
-  top: 5%;
 }
 
 .burger {
