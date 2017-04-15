@@ -26,12 +26,14 @@ body {
 #slideMenu {
   display: none;
   background-color: #000;
-  position: fixed;
+  position: absolute;
   z-index: 2000;
   top: 0px;
   left: 0px;
   height: 100%;
   width: 100%;
+  color: white;
+  text-align: center;
 }
 
 .menuItem {
@@ -44,7 +46,9 @@ p {
 }
 
 .menuItem p {
-
+  position: relative;
+  top: 50%;
+  font-size: 2em;
 }
 
 main {
