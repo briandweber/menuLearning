@@ -23,41 +23,6 @@ body {
   height: 50vh;
 }
 
-.connectButton {
-  color: white;
-  height: 10vh;
-  width: 15vw;
-}
-
-#email{
-
-}
-
-#facebook{
-
-}
-
-#twitter {
-
-}
-
-#linkedin {
-
-}
-
-#github{
-
-}
-
-.contactMessage {
-  color: white;
-  position: absolute;
-  top: 30vh;
-  width: 80%;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 2em;
-}
-
 #slideMenu {
   display: none;
   background-color: #000;
