@@ -48,6 +48,7 @@ $(document).ready(function(){
       display: "block"
     }, 1, 'linear')
   })
+
 })
 
 //testing testing 1, 2, ....3?

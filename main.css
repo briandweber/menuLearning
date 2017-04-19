@@ -10,13 +10,6 @@ header {
   height: 20vh;
 }
 
-.nav-container {
-  height: 100%;
-  width: 100%;
-  background-color: #000;
-  display: none;
-}
-
 .exit {
   height: 50px;
   width: 50px;
@@ -29,10 +22,6 @@ header {
   color: #f28080;
   font-size: 3em;
   font-family: 'Fira Mono', monospace;
-}
-
-.quote {
-  height: 50vh;
 }
 
 #slideMenu {
@@ -51,6 +40,11 @@ header {
 .menuItem {
   height: 20vh;
   width: 100%;
+}
+
+.menuItem a {
+  text-decoration: none;
+  color: white;
 }
 
 p {
