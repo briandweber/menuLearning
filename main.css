@@ -1,9 +1,21 @@
 body {
   background-color: #2F2F2F;
 }
+
 .welcome {
    height: 50vh;
  }
+
+header {
+  height: 20vh;
+}
+
+.nav-container {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  display: none;
+}
 
 .exit {
   height: 50px;
@@ -37,7 +49,7 @@ body {
 }
 
 .menuItem {
-  height: 25%;
+  height: 20vh;
   width: 100%;
 }
 
@@ -110,29 +122,3 @@ nav.primary-nav a{
   z-index: 1000;
   display: none;
 }
-
-#toggle-menu:checked ~ nav.primary-nav{
-  display: block;
-}
-
-#toggle-menu {
-  display: none;
-}
-
-/*when primary nav is next to a checked checkbox*/
-#toggle-menu:checked ~ .menu-off {
-  display: block;
-}
-/*
-@media screen and (min-width: 500px){
-  .menu-on, .menu-off {
-    display: none;
-  }
-  nav.primary-nav {
-    display: block;
-    position: static;
-  }
-  nav.primary-nav a {
-    display: inline-block;
-  }
-}*/

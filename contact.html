@@ -7,36 +7,56 @@
     <title>BDW - Web Developer</title>
     <link rel="stylesheet" href="contact.css">
     <link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <script src="https://use.fontawesome.com/9521633399.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.min.js"
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-      crossorigin="anonymous"></script>    <script src="script.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+      crossorigin="anonymous"></script>
+      <script src="script.js"></script>
   </head>
   <body>
+    <header>
+      <div id="menu" class="burger">
+        <div class="burgerLine">
+        </div>
+        <div class="burgerLine">
+        </div>
+        <div class="burgerLine">
+        </div>
+      </div>
+
+      <div id="exit" class="exit">X</div>
+
+
+      <nav class="primary-nav">
+        <a href="#">Home</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+        <a href="#">FAQ</a>
+      </nav>
+
+    </header>
     <div class="contactMessage">
       <h3>To hire me for a project or position, call (402) 304-5267.</h3><br>
       <h5>Otherwise, connect with one of the options below.
       I look forward to hearing from you.</h5>
     </div>
     <div class="buttonContainer">
-      <div class="connectButton" id="email">
-        EMAIL
+      <div class="connectButton" id="email"><a href="mailto:admin@briandweber.com">
+        <i class="fa fa-envelope-o" aria-hidden="true"></i> EMAIL
+      </a></div>
+      <div class="connectButton" id="facebook"><a href="https://www.facebook.com/brian.weber.9674">
+        <i class="fa fa-facebook-square" aria-hidden="true"></i> FACEBOOK</a>
       </div>
-      <div class="connectButton" id="facebook">
-        FACEBOOK
+      <div class="connectButton" id="twitter"><a href="https://twitter.com/briandweber">
+        <i class="fa fa-twitter-square" aria-hidden="true"></i> TWITTER</a>
       </div>
-      <div class="connectButton" id="twitter">
-        TWITTER
+      <div class="connectButton" id="linkedin"><a href="https://www.linkedin.com/in/brian-weber-ba755a131/">
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i> LINKEDIN<a/>
       </div>
-      <div class="connectButton" id="linkedin">
-        LINKEDIN
-      </div>
-      <div class="connectButton" id="github">
-        GITHUB
+      <div class="connectButton" id="github"><a href="https://github.com/briandweber">
+        <i class="fa fa-github" aria-hidden="true"></i> GITHUB<a/>
       </div>
     </div>
 

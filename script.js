@@ -19,6 +19,11 @@ $(document).ready(function(){
   $("#menu").click(function(){
     $("#slideMenu").slideDown(500)
   })
+  $("#menu").click(function(){
+    $(".quote").css({
+      display: "none"
+    }, 1, 'linear')
+  })
 
 //change burger to X
   $("#menu").click(function(){
@@ -37,6 +42,11 @@ $(document).ready(function(){
 //disappear menu choices via slideUp
   $(".exit").click(function(){
     $("#slideMenu").slideUp(500)
+  })
+  $(".exit").click(function(){
+    $(".quote").css({
+      display: "block"
+    }, 1, 'linear')
   })
 })
 
