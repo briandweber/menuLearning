@@ -33,7 +33,7 @@ header {
   left: 0px;
   height: 100%;
   width: 100%;
-  color: white;
+  color: #CFCFCF;
   text-align: center;
 }
 
@@ -44,7 +44,7 @@ header {
 
 .menuItem a {
   text-decoration: none;
-  color: white;
+  color: #CFCFCF;
 }
 
 p {

@@ -42,23 +42,29 @@ header {
   left: 0px;
   height: 100%;
   width: 100%;
-  color: white;
+  color: #CFCFCF;
   text-align: center;
 }
 
 .menuItem {
   height: 20vh;
-  width: 100%;
+  width: 80%;
+  margin: auto;
+}
+
+.menuItem:hover {
+  opacity: 0.8;
+  background-color: #605b5b;
 }
 
 .menuItem a {
   text-decoration: none;
-  color: white;
+  color: #CFCFCF;
 }
 
 .menuItem p {
   position: relative;
-  top: 50%;
+  top: 40%;
   font-size: 2em;
 }
 
@@ -78,16 +84,17 @@ header {
 
 .buttonContainer a {
   text-decoration: none;
-  color: white;
+  color: #CFCFCF;
 }
 
 .connectButton {
-  color: white;
+  color: #CFCFCF;
   text-align: center;
   margin: 3%;
   border-radius: 3px;
   box-shadow: 2px 3px #000;
   padding: 8px;
+  width: 20%;
 }
 
 nav.primary-nav {
@@ -148,7 +155,7 @@ display: none;
 }
 
 .contactMessage {
-  color: white;
+  color: #CFCFCF;
   top: 30vh;
   width: 80%;
   margin: auto;
