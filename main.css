@@ -19,7 +19,7 @@ header {
   right: 25px;
   display: none;
   z-index: 2060;
-  color: #f28080;
+  color: #CFCFCF;
   font-size: 3em;
   font-family: 'Fira Mono', monospace;
 }
@@ -39,7 +39,13 @@ header {
 
 .menuItem {
   height: 20vh;
-  width: 100%;
+  width: 60%;
+  margin: auto;
+}
+
+.menuItem:hover {
+  opacity: 0.8;
+  background-color: #605b5b;
 }
 
 .menuItem a {
@@ -53,7 +59,7 @@ p {
 
 .menuItem p {
   position: relative;
-  top: 50%;
+  top: 40%;
   font-size: 2em;
 }
 
@@ -74,7 +80,7 @@ main {
 }
 
 .burgerLine {
-  border-bottom: 2px solid #f28080;
+  border-bottom: 2px solid #CFCFCF;
   margin: 0;
   padding: 0;
   height: 20%;

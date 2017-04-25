@@ -49,7 +49,19 @@ $(document).ready(function(){
     }, 1, 'linear')
   })
 
-
+  // $(".menuItem").mouseenter(function(){
+  //   $(".menuItem").css({
+  //     opacity: "0.8",
+  //     backgroundColor: "#605b5b"
+  //   }, 1000, 'linear')
+  // })
+  //
+  // $(".menuItem").mouseleave(function(){
+  //   $(".menuItem").css({
+  //     opacity: "1.0",
+  //     backgroundColor: "#000"
+  //   }, 1000, 'linear')
+  // })
 
 })
 
